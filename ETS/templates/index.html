@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas DN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Universitas Dalam Negeri</h1>
+        <p>Menumbuhkan Bibit Prestasi Untuk Indonesia</p>
+    </header>
+
+    <!-- Gambar Pendidikan -->
+    <section>
+        <img src="banner.jpg" alt="Banner Pendidikan">
+    </section>
+
+    <!-- Formulir Pendaftaran Kursus -->
+    <section>
+        <h2>Daftar Program Studi</h2>
+        <form id="courseForm">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="course">Pilih Prodi:</label>
+            <select id="course" name="course">
+                <option value="#">Pilih</option>
+                <option value="Sistem & Teknologi Informasi">Sistem & Teknologi Informasi</option>
+                <option value="Informatika">Informatika</option>
+                <option value="Ilmu Komputer">Ilmu Komputer</option>
+            </select>
+            
+            <button type="submit">Daftar Sekarang</button>
+        </form>
+    </section>
+
+    <!-- Tabel Prodi Tersedia -->
+    <section2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Program Studi</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody id="courseTableBody">
+                <!-- Daftar Prodi akan ditampilkan di sini oleh JavaScript -->
+            </tbody>
+        </table>
+    </section2>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Universitas Dalam Negeri.</p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="baru.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    background-image: url(banner.jpg);
+}
+
+/* Formulir */
+form {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-top: 0.5em;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;   
+    padding: 1em;
+    margin-top: 20px;
+}
